@@ -1,25 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-
-function MyInfo() {
-    return (
-        <div>
-            <h1>Mike Razzakov</h1>
-            <p>This is my first attempt with practicing with ReAct and these are my top 3 vacation spots</p>
-            <ol>
-                <li>Dominican Republic</li>
-                <li>Mexico</li>
-                <li>Disney, FL</li>
-            </ol>
-        </div>
-    );
-}
+import MyInfo from "./components/MyInfo"
 
 ReactDOM.render(<MyInfo/>,document.getElementById('root'));
-
-
-
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';

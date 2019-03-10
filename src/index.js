@@ -4,7 +4,18 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<div><h1>Hello World</h1><ul><li>1</li><li>2</li><li>3</li></ul></div>, document.getElementById('root'));
+function MyApp() {
+    return  (<div>
+                <h1>Put DOM in js function</h1>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>);
+}
+
+ReactDOM.render(<MyApp/>, document.getElementById('root'));
 
 
 {/* <App />, document.getElementById('root'));
